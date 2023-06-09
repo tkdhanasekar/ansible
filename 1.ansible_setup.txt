@@ -1,0 +1,26 @@
+# apt udpate 
+
+# sudo apt-add-repository ppa:ansible/ansible
+# apt update
+# apt install ansible -y
+
+
+sshkey generation and copy public key to remote ansible clients
+
+from ansible server
+# ssh-keygen
+
+# ssh-copy-id -i /root/.ssh/id_rsa.pub root@serverA-ip
+# ssh-copy-id -i /root/.ssh/id_rsa.pub root@serverB-ip
+
+
+# sudo apt install python3-argcomplete
+# sudo activate-global-python-argcomplete3
+
+add ip address of clients in /etc/ansible/hosts file
+
+# vim /etc/ansible/hosts
+xx.xx.xx.xx 
+
+
+xx.xx.xx.xx

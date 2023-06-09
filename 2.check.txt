@@ -1,0 +1,2 @@
+To check
+# ansible all -m ping

@@ -1,0 +1,4 @@
+# vim ~/.vimrc
+set ai et ts=2 cuc
+:wq!
+# source ~/.vimrc

@@ -1,0 +1,15 @@
+---
+- name: Demo playbook to remove nginx
+  hosts: all
+  tasks:
+
+    - name: Stop and disable apache service
+      service:
+        name: nginx
+        enabled: false
+        state: stopped
+
+    - name: Remove nginx package
+      apt:
+        name: nginx
+        state: absent

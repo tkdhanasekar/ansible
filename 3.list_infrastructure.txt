@@ -1,0 +1,4 @@
+To list the hosts infrastructure
+# ansible-inventory --list -y
+or
+# ansible all --list-hosts

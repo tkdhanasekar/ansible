@@ -1,0 +1,6 @@
+To work with adhoc commands
+# ansible all -a "uptime" -u root
+# ansible all -a "free -h"
+# ansible all -a "df -Th"
+# ansible all -a "hostname -I"
+# ansible all -a "ip a"

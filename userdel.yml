@@ -1,0 +1,7 @@
+---
+- name: remove users
+  hosts: all
+  tasks: 
+    - user:
+        name: sekar
+        state: absent
